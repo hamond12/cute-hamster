@@ -44,11 +44,7 @@ class _FrameState extends State<Frame> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        fontFamily: 'Omu'
-      ),
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           title: Text("햄찌둘러보기",
           style: TextStyle(
@@ -134,7 +130,6 @@ class _FrameState extends State<Frame> {
               ),
             ],
         ),
-      ),
-    );
+      );
   }
 }

@@ -6,13 +6,8 @@ import 'package:webview_flutter/webview_flutter.dart';
 class Webview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter WebView',
-      theme: ThemeData(
-        fontFamily: 'Omu',
-        primarySwatch: Colors.blue,
-      ),
-      home: WebViewExample(),
+    return Scaffold(
+      body: WebViewExample(),
     );
   }
 }
